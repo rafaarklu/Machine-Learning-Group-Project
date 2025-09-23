@@ -134,6 +134,6 @@ extra_javascript:
 nav:
   - Home: index.md
   - Roteiros:
-    - Machine-Learning:
-    - KNN: 
-    - K-Means: 
+    - Machine-Learning: .\docs/Machine-Learning\main.md
+    - KNN: .\docs\K-nearest-neighbor\main.md
+    - K-Means: .\docs\k-means\main.md
