@@ -17,5 +17,6 @@ yfinance
 kagglehub
 scikit-learn
 seaborn
+tabulate
 
 
