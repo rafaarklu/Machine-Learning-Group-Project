@@ -8,7 +8,12 @@
 
 ## Grupo
 
-1. Rafael Arkchimor Lucena
+1. Arthur Borba (Completa teu nome dps)
+2. Arthur napoles (Completa teu nome dps)
+3. Enrico Comassetto Di Gioia
+4. Enzo Godoy (Completa teu nome dps)
+5. Rafael Arkchimor Lucena
+6. Ycaro Campovilla (Completa teu nome dps)
 
 
 !!! tip "Instruções"
