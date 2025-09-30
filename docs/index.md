@@ -8,12 +8,12 @@
 
 ## Grupo
 
-1. Arthur Borba (Completa teu nome dps)
-2. Arthur napoles (Completa teu nome dps)
+1. Arthur Borba 
+2. Artur Napoles de Oliveira
 3. Enrico Comassetto Di Gioia
-4. Enzo Godoy (Completa teu nome dps)
+4. Enzo Godoy 
 5. Rafael Arkchimor Lucena
-6. Ycaro Campovilla (Completa teu nome dps)
+6. Ycaro Campovilla 
 
 
 !!! tip "Instruções"

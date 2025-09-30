@@ -134,7 +134,7 @@ extra_javascript:
 nav:
   - Home: index.md
   - Roteiros:
-      - Machine-Learning: Machine-Learning/main.md
+      - Decision-Tree: Decision-Tree/main.md
       - KNN: k-nearest-neighbor/main.md
       - K-Means: k-means/main.md
     
