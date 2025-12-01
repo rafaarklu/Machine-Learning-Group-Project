@@ -137,4 +137,9 @@ nav:
       - Decision-Tree: Decision-Tree/main.md
       - KNN: k-nearest-neighbor/main.md
       - K-Means: k-means/main.md
+
+  - Projeto-Integrado:
+      - Decision-Tree: Projeto-Integrado/decision-tree/main.md
+      - KNN: Projeto-Integrado/knn/main.md
+      - K-Means: Projeto-Integrado/k-means/main.md
     
