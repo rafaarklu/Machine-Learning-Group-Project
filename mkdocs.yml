@@ -139,6 +139,7 @@ nav:
       - K-Means: k-means/main.md
 
   - Projeto-Integrado:
+      - O Projeto: Projeto-Integrado/projeto.md
       - Decision-Tree: Projeto-Integrado/decision-tree/main.md
       - KNN: Projeto-Integrado/knn/main.md
       - K-Means: Projeto-Integrado/k-means/main.md
