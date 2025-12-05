@@ -97,3 +97,14 @@ plt.close()
 
 ---
 
+**Conclusão**
+
+O exemplo de KNN ilustra bem as propriedades fundamentais do método: a padronização (`StandardScaler`) foi necessária para que `km` e `price` contribuíssem de forma equilibrada nas distâncias. A métrica impressa (`accuracy`) fornece uma visão rápida do desempenho, mas não conta toda a história — especialmente quando há classes desbalanceadas ou custos diferentes para erros.
+
+Pontos-chave para interpretar os resultados:
+
+- **Acurácia**: indica a proporção de previsões corretas no conjunto de teste, mas deve ser complementada por outras métricas (matriz de confusão, precisão/recall, F1) quando as classes não são igualmente representadas.
+- **Fronteira de decisão**: mostra como o espaço é dividido com `k=3`; regiões conectadas e suaves indicam boa separabilidade local, enquanto regiões muito irregulares podem sinalizar sensibilidade a ruído.
+- **Importância da padronização**: sem escalar as features, variáveis com escala maior dominariam a distância euclidiana e prejudicariam o resultado.
+
+

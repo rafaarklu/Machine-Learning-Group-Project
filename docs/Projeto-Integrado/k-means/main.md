@@ -75,3 +75,13 @@ plt.close()
 
 ---
 
+**Conclusão**
+
+O exemplo aplicado com K-Means agrupa veículos com base em `price` e `km`, resultando em clusters que refletem segmentos com características semelhantes (por exemplo: veículos baratos com alta quilometragem, veículos caros com baixa quilometragem, etc.). Os centroides (marcados como estrelas vermelhas) representam a posição média de cada grupo e ajudam a interpretar o perfil típico de cada cluster.
+
+Pontos importantes na interpretação:
+
+- **Tamanho e densidade dos clusters**: clusters muito pequenos ou esparsos podem indicar outliers ou agrupamentos pouco significativos.
+- **Separabilidade**: se os clusters se sobrepõem muito no gráfico, pode ser um sinal de que `k` escolhido não é ideal ou que as features não capturam bem a estrutura dos dados.
+- **Centroides**: dão uma referência média para `price` e `km`, úteis para rotular segmentos (ex.: "baixo preço / alto km").
+

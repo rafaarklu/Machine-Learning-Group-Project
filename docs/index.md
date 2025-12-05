@@ -16,84 +16,39 @@
 6. Ycaro Campovilla 
 
 
-!!! tip "Instruções"
+## Introdução
 
-    Vocês devem utilizar este template como um bloco de notas para registrar o que foi feito e o que falta fazer. Vocês devem adicionar as informações necessárias.
-    O template deve ser editado e atualizado a cada entrega, registrando assim a data de entrega e o que foi feito até o momento via Git.
+Este trabalho foi desenvolvido em grupo e está dividido em duas partes principais. Na primeira parte, exploramos uma base de dados selecionada pelo grupo, aplicando técnicas de aprendizado de máquina para análise e modelagem dos dados. O objetivo foi compreender o funcionamento dos algoritmos e avaliar seus resultados em um contexto real, promovendo o desenvolvimento prático e colaborativo.
 
-## Entregas
+Na segunda parte, utilizamos uma base de dados proveniente de outro projeto, permitindo a comparação entre diferentes abordagens e cenários. Essa etapa reforça a capacidade de adaptação dos métodos estudados e amplia a visão sobre aplicações do aprendizado de máquina em diferentes domínios.
 
-- [x] Machine Learning
-- [ ] Roteiro 2
-- [ ] Roteiro 3
-- [ ] Roteiro 4
-- [ ] Projeto
+Ao longo do trabalho, cada integrante contribuiu para a implementação, documentação e análise dos resultados, consolidando o aprendizado coletivo e a integração dos conhecimentos adquiridos.
+## Objetivos
 
-## Diagramas
+O principal objetivo deste projeto é aplicar e comparar diferentes técnicas de aprendizado de máquina em bases de dados distintas, promovendo o entendimento prático dos métodos e suas aplicações. Buscamos desenvolver habilidades de análise, implementação e avaliação de modelos, além de estimular o trabalho colaborativo entre os membros do grupo.
 
-Use o [Mermaid](https://mermaid.js.org/intro/){:target='_blank'} para criar os diagramas de documentação.
+## Metodologia
 
-[Mermaid Live Editor](https://mermaid.live/){:target='_blank'}
+O desenvolvimento do trabalho foi dividido em etapas, iniciando pela escolha das bases de dados e definição dos problemas a serem resolvidos. Em seguida, realizamos a preparação dos dados, seleção dos algoritmos, implementação dos modelos e análise dos resultados. Cada etapa foi documentada e discutida pelo grupo, garantindo a participação ativa de todos os integrantes.
 
+## Algoritmos Utilizados
 
-``` mermaid
-flowchart TD
-    Deployment:::orange -->|defines| ReplicaSet
-    ReplicaSet -->|manages| pod((Pod))
-    pod:::red -->|runs| Container
-    Deployment -->|scales| pod
-    Deployment -->|updates| pod
+Para a resolução dos problemas propostos, utilizamos os seguintes algoritmos de aprendizado de máquina:
 
-    Service:::orange -->|exposes| pod
+- **Árvore de Decisão:** Algoritmo utilizado para classificação e regressão, permitindo a interpretação dos critérios de decisão.
+- **K-Means:** Método de agrupamento não supervisionado, aplicado para segmentação dos dados em clusters.
+- **K-Nearest Neighbors (KNN):** Algoritmo de classificação baseado na proximidade dos dados, útil para problemas de reconhecimento de padrões.
 
-    subgraph  
-        ConfigMap:::orange
-        Secret:::orange
-    end
+Cada algoritmo foi implementado e testado nas diferentes bases de dados, possibilitando a comparação de desempenho e adequação a cada contexto.
 
-    ConfigMap --> Deployment
-    Secret --> Deployment
-    classDef red fill:#f55
-    classDef orange fill:#ffa500
-```
+## Estrutura do Trabalho
 
+O trabalho está organizado da seguinte forma:
 
+- **Documentação:** Explicações detalhadas sobre cada etapa do projeto, disponíveis nas seções específicas de cada algoritmo.
+- **Código-Fonte:** Implementações dos modelos em Python, estruturadas em pastas conforme o algoritmo e a base de dados utilizada.
+- **Análise de Resultados:** Discussão dos resultados obtidos, incluindo métricas de desempenho e observações relevantes.
 
-## Códigos
+## Conclusão
 
-=== "De um arquivo remoto"
-
-    ``` { .yaml .copy .select linenums='1' title="main.yaml" }
-    --8<-- "https://raw.githubusercontent.com/hsandmann/documentation.template/refs/heads/main/.github/workflows/main.yaml"
-    ```
-
-=== "Anotações no código"
-
-    ``` { .yaml title="compose.yaml" }
-    name: app
-
-        db:
-            image: postgres:17
-            environment:
-                POSTGRES_DB: ${POSTGRES_DB:-projeto} # (1)!
-                POSTGRES_USER: ${POSTGRES_USER:-projeto}
-                POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-projeto}
-            ports:
-                - 5432:5432 #(2)!
-    ```
-
-    1.  Caso a variável de ambiente `POSTGRES_DB` não exista ou seja nula - não seja definida no arquivo `.env` - o valor padrão será `projeto`. Vide [documentação](https://docs.docker.com/reference/compose-file/interpolation/){target='_blank'}.
-
-    2. Aqui é feito um túnel da porta 5432 do container do banco de dados para a porta 5432 do host (no caso localhost). Em um ambiente de produção, essa porta não deve ser exposta, pois ninguém de fora do compose deveria acessar o banco de dados diretamente.
-
-
-## Exemplo de vídeo
-
-Lorem ipsum dolor sit amet
-
-<iframe width="100%" height="470" src="https://www.youtube.com/embed/3574AYQml8w" allowfullscreen></iframe>
-
-
-## Referências
-
-[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/){:target='_blank'}
+Este projeto proporcionou uma experiência prática e colaborativa no uso de técnicas de aprendizado de máquina, reforçando conceitos teóricos e desenvolvendo competências essenciais para atuação na área. A diversidade de abordagens e bases de dados permitiu uma visão abrangente sobre os desafios e possibilidades do campo.

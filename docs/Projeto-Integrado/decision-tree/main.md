@@ -82,3 +82,10 @@ print(buffer.getvalue())
 * O gráfico gerado mostra visualmente a estrutura da árvore e como ela divide as features para chegar a estimativas.
 
 ---
+
+**Conclusão**
+
+A aplicação da Árvore de Decisão ao conjunto de dados permite observar relações claras entre as features selecionadas (`km`, `combustivel`, `cambio`, `modelo_base`) e o preço dos veículos. A métrica impressa pelo script (`R²`) é o indicador primário para avaliar o ajuste: valores próximos de 1 significam que o modelo explica bem a variabilidade do preço, enquanto valores perto de 0 indicam que grande parte da variabilidade não foi capturada.
+
+Por ser um modelo de alta interpretabilidade, a árvore é uma boa opção inicial para entender quais variáveis têm maior impacto nas previsões. Entretanto, árvores de decisão individuais são sensíveis a overfitting e a ruído nos dados. 
+
