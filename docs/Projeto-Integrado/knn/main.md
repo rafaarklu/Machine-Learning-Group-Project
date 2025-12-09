@@ -20,17 +20,11 @@ Se vários veículos semelhantes possuem o mesmo tipo de câmbio, um novo veícu
 
 ## Exemplo de Execução (Classificação de Câmbio)
 
-=== "KNN"
 
-    ```python exec="on" html="1"
-    --8<-- "docs\Projeto-Integrado\knn\knn.py"
-    ```
+```python exec="on" html="1"
+--8<-- "docs\Projeto-Integrado\knn\knn.py"
+```
 
-=== "Code"
-
-    ```python exec="off" html="1"
-    --8<-- "docs\Projeto-Integrado\knn\knn.py"
-    ```
 
 
 Aqui o KNN tenta prever o tipo de câmbio com base em **km** e **preço**, dois atributos que auxiliam na diferenciação do carro.

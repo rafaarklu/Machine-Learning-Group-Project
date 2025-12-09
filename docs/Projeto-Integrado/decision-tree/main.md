@@ -21,17 +21,11 @@ Quando usada para **regressão**, como neste exemplo, o objetivo é prever um va
 
 ## Exemplo de Execução (Regressão)
 
-=== "Tree"
 
-    ```python exec="on" html="1"
-    --8<-- "docs\Projeto-Integrado\decision-tree\desicion-tree.py"
-    ```
 
-=== "Code"
-
-    ```python exec="off" html="1"
-    --8<-- "docs\Projeto-Integrado\decision-tree\desicion-tree.py"
-    ```
+```python exec="on" html="1"
+--8<-- "docs\Projeto-Integrado\decision-tree\desicion-tree.py"
+```
 
 
 O código a seguir carrega dados, pré-processa variáveis categóricas, treina uma árvore e gera o valor **R²**, métrica que mostra o quanto o modelo explica da variabilidade do alvo.

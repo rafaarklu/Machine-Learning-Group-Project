@@ -21,17 +21,12 @@ O K-Means é um algoritmo **não supervisionado** utilizado para agrupar dados c
 
 ## Exemplo de Execução (Agrupamento de Veículos)
 
-=== "K-means"
 
-    ```python exec="on" html="1"
-    --8<-- "docs\Projeto-Integrado\k-means\kmeans.py"
-    ```
 
-=== "Code"
+```python exec="on" html="1"
+--8<-- "docs\Projeto-Integrado\k-means\kmeans.py"
+```
 
-    ```python exec="off" html="1"
-    --8<-- "docs\Projeto-Integrado\k-means\kmeans.py"
-    ```
 
 
 O exemplo abaixo agrupa os carros com base em duas variáveis numéricas: **preço** e **km**.
