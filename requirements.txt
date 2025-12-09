@@ -19,6 +19,3 @@ scikit-learn
 seaborn
 networkx
 openpyxl
-io
-
-
